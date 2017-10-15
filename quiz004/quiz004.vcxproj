@@ -11,10 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C796302A-54FF-43A5-B3E0-602D0D9DBEE3}</ProjectGuid>
+    <ProjectGuid>{5F6F4972-B2DE-4801-9D4D-54F5B86DBC8C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>VariableInstantiation</RootNamespace>
-    <ProjectName>variable_instantiation</ProjectName>
+    <RootNamespace>quiz004</RootNamespace>
+    <ProjectName>variable_scope</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -84,11 +84,11 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="variable_scope.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="variable_instantiation.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
